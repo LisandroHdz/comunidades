@@ -1,0 +1,189 @@
+.caja{
+    background-image: linear-gradient(to right top, #051937, #231437, #370c2f, #450420, #4a070d);
+}
+
+.logo1{
+    width: 20%;
+}
+
+caja{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+nav{
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;
+  }
+  
+nav a {
+    text-transform: uppercase;
+    color: #f1eded;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Andika', sans-serif;
+  
+  }
+  
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+  }
+  
+
+
+.productos{
+    margin: 0 auto;
+    padding: 50px;
+}
+
+ .productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px #000000 dotted;
+    border-radius: 20px;
+
+}
+
+.imagenes{
+    width: 100%;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.product-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 30px;
+}
+
+.img2{
+    width: 15%;
+}
+.pie{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.formu{
+    background-image: linear-gradient(to right top, #051937, #231437, #370c2f, #450420, #4a070d);
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.titulo{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Mochiy Pop P One';
+    padding: 15px;
+}
+
+table{
+    color: #ffffff;
+    font-size: 18px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;    
+    margin: 0 35%;  
+}
+
+thead{
+    background-image: linear-gradient(to right top, #392ae1, #b200ab, #d90073, #df0043, #d14d1f);
+}
+
+td, th{
+    border: 1px solid   #eee6e6;
+    padding: 18px 15px;
+}
+
+.e-learnig{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One';
+
+}
+.slider{
+    width: 75vw;
+    height:auto;
+    margin: auto;
+    overflow: hidden;
+    padding: 30 50;
+    
+}
+
+.slider .slider-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 18);
+}
+
+.slider .slide{
+    width: 200px;
+}
+
+.slider .slide img{
+    width: 100%;
+    
+
+}
+
+img{
+    margin: 20px 20px;
+}
+
+@keyframes scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-200px * 9));
+        transform: translateX(calc(-200px * 9));
+    }
+}
