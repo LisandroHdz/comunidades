@@ -4,6 +4,7 @@
 
 .logo1{
     width: 20%;
+    
 }
 
 caja{
@@ -185,5 +186,44 @@ img{
     100%{
         -webkit-transform: translateX(calc(-200px * 9));
         transform: translateX(calc(-200px * 9));
+    }
+}
+
+@media (max-width: 480px){
+
+    .logo1{
+        width: 200px;
+        padding-left: 20%;
+
+
+    }
+
+    nav{
+        position: initial;
+        font-size: 5px;
+    }
+    .productos li{
+        display: inline-block;
+        text-align: center;
+        position:relative;
+        width: 100%;
+        font-size: 5px;
+    }
+    h2{
+        font-size: 5px;
+        width: auto;
+    }
+
+    .formu{
+        font-size: 5px;}
+    form{
+        width: 0px;
+    }
+    table{
+        width: 350px;
+    }
+    .titulo{
+        text-align: center;
+        font-size: 30px;
     }
 }
